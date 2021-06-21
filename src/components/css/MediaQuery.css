@@ -1,0 +1,119 @@
+/* ####################################### Media Query ############################################# */
+@media only screen and (max-width: 1440px) {
+  .header {
+    min-height: 60vh;
+  }
+}
+
+/* home page */
+@media only screen and (max-width: 1200px) {
+  .corona {
+    top: -14%;
+  }
+
+  .corona-one {
+    bottom: 65%;
+  }
+
+  .corona-two {
+    top: 5%;
+    left: 81%;
+  }
+
+  .corona-four {
+    top: 26%;
+    left: 43%;
+  }
+
+  .form-data {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .earth {
+    display: none;
+  }
+
+  .corona {
+    top: -10%;
+  }
+
+  .corona-one {
+    bottom: 72%;
+  }
+
+  .corona-four {
+    display: none;
+  }
+
+  .corona-five {
+    display: none;
+  }
+
+  .heading-bubble {
+    flex-direction: column;
+  }
+
+  .heading-text {
+    width: 100% !important;
+  }
+
+  .heading-text--primary {
+    text-align: center;
+  }
+
+  .heading-text--secondary {
+    text-align: center;
+  }
+
+  .btn-vaccine {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mars-img {
+    width: 248%;
+  }
+
+  .corona {
+    top: -7%;
+  }
+
+  .corona-one {
+    bottom: 77%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .corona {
+    top: -4%;
+  }
+
+  .corona-one {
+    bottom: 83%;
+  }
+
+  .covid-data {
+    max-height: 100vh;
+  }
+
+  .mars-img {
+    min-height: 100%;
+  }
+}
+
+/* vaccine page */
+@media only screen and (max-width: 992px) {
+  .vaccine-form {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .vaccine-data {
+    max-width: 412px !important;
+  }
+}

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Vaccine from './components/Vaccine';
+import Error from './components/Error';
 import './App.css';
+import './components/css/Navbar.css';
+import './components/css/Home.css';
+import './components/css/Vaccine.css';
+import './components/css/Booked.css';
+import './components/css/MediaQuery.css';
+import './components/css/Error.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import 'font-awesome/css/font-awesome.min.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/get-vaccinated' component={Vaccine} />
+        <Route component={Error} />
+      </Switch>
+    </>
+  )
 }
 
 export default App;

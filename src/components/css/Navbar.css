@@ -1,0 +1,22 @@
+/* Navbar */
+.navbubble {
+  position: sticky;
+  z-index: 2;
+}
+
+.btn-login {
+  width: 146px;
+  padding: 12px;
+  border: 2px solid #e51a5a;
+  border-radius: 25px;
+  background-color: #20114c;
+}
+
+.btn-login:hover {
+  background-image: linear-gradient(to top, #e53365, #f46f72);
+}
+
+.active-class {
+  font-weight: bold;
+  border-bottom: 4px solid #e51a5a;
+}
