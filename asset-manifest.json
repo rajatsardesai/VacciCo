@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VacciCo/static/css/main.44e4a49f.chunk.css",
-    "main.js": "/VacciCo/static/js/main.8a368890.chunk.js",
-    "main.js.map": "/VacciCo/static/js/main.8a368890.chunk.js.map",
+    "main.js": "/VacciCo/static/js/main.f6372b89.chunk.js",
+    "main.js.map": "/VacciCo/static/js/main.f6372b89.chunk.js.map",
     "runtime-main.js": "/VacciCo/static/js/runtime-main.b008fbc4.js",
     "runtime-main.js.map": "/VacciCo/static/js/runtime-main.b008fbc4.js.map",
     "static/css/2.27ba614e.chunk.css": "/VacciCo/static/css/2.27ba614e.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.27ba614e.chunk.css",
     "static/js/2.c02911ae.chunk.js",
     "static/css/main.44e4a49f.chunk.css",
-    "static/js/main.8a368890.chunk.js"
+    "static/js/main.f6372b89.chunk.js"
   ]
 }
