@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container-lg navbubble">
                 <nav className="navbar navbar-expand-lg mt-3 navbar-dark">
                     <div className="container-fluid">
-                        <a className="navbar-brand text-white" href="#"><img className="logo" src="/img/logo.svg" alt="Syringe" /></a>
+                        <a className="navbar-brand text-white" href="#"><img className="logo" src={process.env.PUBLIC_URL +"/img/logo.svg"} alt="Syringe" /></a>
                         <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon text-light"></span>
                         </button>

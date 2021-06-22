@@ -84,9 +84,9 @@ const Vaccine = () => {
     return (
         <>
             <div className="circle-grp">
-                <img src="/img/circle__l-sm.svg" className="circle-small" alt="circle-small" />
-                <img src="/img/circle__l-md.svg" className="circle-medium" alt="circle-medium" />
-                <img src="/img/circle__l-lg.svg" className="circle-large" alt="circle-large" />
+                <img src={process.env.PUBLIC_URL + "/img/circle__l-sm.svg"} className="circle-small" alt="circle-small" />
+                <img src={process.env.PUBLIC_URL + "/img/circle__l-md.svg"} className="circle-medium" alt="circle-medium" />
+                <img src={process.env.PUBLIC_URL + "/img/circle__l-lg.svg"} className="circle-large" alt="circle-large" />
             </div>
 
             <form onSubmit={getVaccine}>
@@ -127,12 +127,12 @@ const Vaccine = () => {
                                 <h4 className="display-4 text-light">How it Works</h4>
                                 <div className="d-flex flex-lg-row flex-sm-column flex-column align-items-center w-100">
                                     <div className="w-50 mt-5">
-                                        <img src="/img/location.svg" className="hiw-img" alt="CHOOSE VACCINE LOCATION" />
+                                        <img src={process.env.PUBLIC_URL + "/img/location.svg"} className="hiw-img" alt="CHOOSE VACCINE LOCATION" />
                                         <p className="hiw-text-primary text-light mt-5">CHOOSE VACCINE LOCATION</p>
                                         <p className="hiw-text-secondary text-light">Select your nearby Vaccine Center for vaccination</p>
                                     </div>
                                     <div className="w-50 mt-5">
-                                        <img src="/img/slot.svg" className="hiw-img" alt="CHOOSE VACCINE LOCATION" />
+                                        <img src={process.env.PUBLIC_URL + "/img/slot.svg"} className="hiw-img" alt="CHOOSE VACCINE LOCATION" />
                                         <p className="hiw-text-primary text-light mt-5">CONFIRM YOUR SLOT</p>
                                         <p className="hiw-text-secondary text-light">Book your slot to Get Vaccine</p>
                                     </div>
@@ -162,7 +162,7 @@ const Vaccine = () => {
             <VaccineData vaccineData={vaccineData} date={dateString} />
 
             <div className="bubble">
-                <img src="/img/circle__r.svg" alt="circle-right" className="circle-right-vaccine" />
+                <img src={process.env.PUBLIC_URL + "/img/circle__r.svg"} alt="circle-right" className="circle-right-vaccine" />
             </div>
         </>
 

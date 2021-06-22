@@ -22,16 +22,16 @@ const Home = () => {
 
             <div className="header">
                 <div className="circle-grp">
-                    <img src="/img/circle__l-sm.svg" className="circle-small" alt="circle-small" />
-                    <img src="/img/circle__l-md.svg" className="circle-medium" alt="circle-medium" />
-                    <img src="/img/circle__l-lg.svg" className="circle-large" alt="circle-large" />
+                    <img src={process.env.PUBLIC_URL + "/img/circle__l-sm.svg"} className="circle-small" alt="circle-small" />
+                    <img src={process.env.PUBLIC_URL + "/img/circle__l-md.svg"} className="circle-medium" alt="circle-medium" />
+                    <img src={process.env.PUBLIC_URL + "/img/circle__l-lg.svg"} className="circle-large" alt="circle-large" />
                 </div>
 
                 <div className="corona-img-top">
-                    <img src="/img/corona.svg" alt="corona" className="corona-two translate" />
-                    <img src="/img/corona.svg" alt="corona" className="corona-three translate" />
-                    <img src="/img/corona.svg" alt="corona" className="corona-four translate" />
-                    <img src="/img/corona.svg" alt="corona" className="corona-five translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona-two translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona-three translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona-four translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona-five translate" />
                 </div>
 
                 <div className="container mt-5 pt-4">
@@ -51,16 +51,16 @@ const Home = () => {
 
             <div className="covid-data">
                 <div className="bubble">
-                    <img src="/img/circle__r.svg" alt="circle-right" className="circle-right" />
+                    <img src={process.env.PUBLIC_URL + "/img/circle__r.svg"} alt="circle-right" className="circle-right" />
                 </div>
 
                 <div className="corona-img-bottom">
-                    <img src="/img/corona.svg" alt="corona" className="corona translate" />
-                    <img src="/img/corona.svg" alt="corona" className="corona-one translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona translate" />
+                    <img src={process.env.PUBLIC_URL + "/img/corona.svg"} alt="corona" className="corona-one translate" />
                 </div>
 
                 <div className="mars-bubble">
-                    <img src="/img/mars.png" alt="mars" className="mars-img" />
+                    <img src={process.env.PUBLIC_URL + "/img/mars.png"} alt="mars" className="mars-img" />
                 </div>
 
                 <div className="d-flex flex-column mars-content">
