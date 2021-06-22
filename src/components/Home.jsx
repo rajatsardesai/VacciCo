@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Card from './Card';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -39,7 +40,7 @@ const Home = () => {
                         <div className="heading-text">
                             <h1 className="text-white heading-text--primary">Let's Help<br /> Recover the Earth, <br /><span className="heading-text--primary heading-text--primary_color">Start From Us!</span></h1>
                             <p className="text-white heading-text--secondary">Getting Vaccinated is the key<br /> to break this virus chain</p>
-                            <button type="button" className="btn-vaccine text-white" to="/get-vaccinated">Get Vaccinated</button>
+                            <Link type="button" className="btn-vaccine text-white" to="/get-vaccinated">Get Vaccinated</Link>
                         </div>
                         <div className="heading-img w-50 text-end">
                             <div className="earth"></div>
