@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/VacciCo/home/static/css/main.44e4a49f.chunk.css",
-    "main.js": "/VacciCo/home/static/js/main.8a368890.chunk.js",
-    "main.js.map": "/VacciCo/home/static/js/main.8a368890.chunk.js.map",
-    "runtime-main.js": "/VacciCo/home/static/js/runtime-main.c6350f81.js",
-    "runtime-main.js.map": "/VacciCo/home/static/js/runtime-main.c6350f81.js.map",
-    "static/css/2.1fb47a0d.chunk.css": "/VacciCo/home/static/css/2.1fb47a0d.chunk.css",
-    "static/js/2.c02911ae.chunk.js": "/VacciCo/home/static/js/2.c02911ae.chunk.js",
-    "static/js/2.c02911ae.chunk.js.map": "/VacciCo/home/static/js/2.c02911ae.chunk.js.map",
-    "index.html": "/VacciCo/home/index.html",
-    "static/css/2.1fb47a0d.chunk.css.map": "/VacciCo/home/static/css/2.1fb47a0d.chunk.css.map",
-    "static/css/main.44e4a49f.chunk.css.map": "/VacciCo/home/static/css/main.44e4a49f.chunk.css.map",
-    "static/js/2.c02911ae.chunk.js.LICENSE.txt": "/VacciCo/home/static/js/2.c02911ae.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/VacciCo/home/static/media/fontawesome-webfont.f691f37e.woff"
+    "main.css": "/VacciCo/static/css/main.44e4a49f.chunk.css",
+    "main.js": "/VacciCo/static/js/main.8a368890.chunk.js",
+    "main.js.map": "/VacciCo/static/js/main.8a368890.chunk.js.map",
+    "runtime-main.js": "/VacciCo/static/js/runtime-main.b008fbc4.js",
+    "runtime-main.js.map": "/VacciCo/static/js/runtime-main.b008fbc4.js.map",
+    "static/css/2.27ba614e.chunk.css": "/VacciCo/static/css/2.27ba614e.chunk.css",
+    "static/js/2.c02911ae.chunk.js": "/VacciCo/static/js/2.c02911ae.chunk.js",
+    "static/js/2.c02911ae.chunk.js.map": "/VacciCo/static/js/2.c02911ae.chunk.js.map",
+    "index.html": "/VacciCo/index.html",
+    "static/css/2.27ba614e.chunk.css.map": "/VacciCo/static/css/2.27ba614e.chunk.css.map",
+    "static/css/main.44e4a49f.chunk.css.map": "/VacciCo/static/css/main.44e4a49f.chunk.css.map",
+    "static/js/2.c02911ae.chunk.js.LICENSE.txt": "/VacciCo/static/js/2.c02911ae.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/VacciCo/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6350f81.js",
-    "static/css/2.1fb47a0d.chunk.css",
+    "static/js/runtime-main.b008fbc4.js",
+    "static/css/2.27ba614e.chunk.css",
     "static/js/2.c02911ae.chunk.js",
     "static/css/main.44e4a49f.chunk.css",
     "static/js/main.8a368890.chunk.js"
