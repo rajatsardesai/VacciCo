@@ -25,9 +25,7 @@ const VaccineData = (props) => {
 
     return (
         <>
-
             <div className="container mt-5 d-flex vaccine-container">
-
                 {
                     props.vaccineData.map((currElem, index) => {
                         return (
