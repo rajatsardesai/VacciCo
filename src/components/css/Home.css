@@ -75,7 +75,6 @@
   min-width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -2;
 }
 
 .circle-small {
@@ -84,7 +83,7 @@
   position: fixed;
   top: -157px;
   left: -161px;
-  z-index: -1;
+  z-index: -2;
 }
 
 .circle-medium {
@@ -93,7 +92,7 @@
   position: fixed;
   top: -292px;
   left: -292px;
-  z-index: -1;
+  z-index: -2;
 }
 
 .circle-large {
@@ -102,7 +101,7 @@
   position: fixed;
   top: -537px;
   left: -535.85px;
-  z-index: -1;
+  z-index: -3;
 }
 
 .heading-text {
