@@ -10,3 +10,7 @@ NOTE: This website is not recommended for booking vaccine shots as this is just 
 **Tools and libraries**
 
 - React, React hooks (useEffect, useState, useReducer)
+
+**Demo**
+
+- For Demo [click me](https://rajatsardesai.github.io/VacciCo/)
