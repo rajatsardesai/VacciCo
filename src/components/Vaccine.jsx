@@ -18,7 +18,7 @@ var y = date.getFullYear();
 
 var dateString = (d <= 9 ? '0' + d : d) + '/' + (m <= 9 ? '0' + m : m) + '/' + y;
 
-const Vaccine = () => {
+const Vaccine = (props) => {
 
     const reducer = (state, action) => {
         switch (action.type) {
@@ -81,6 +81,10 @@ const Vaccine = () => {
         getVaccine();
     }, [stateValue, districtValue]);
 
+    useEffect(() => {
+        props.refer.current.complete()
+    }, [statesData, districtsData])
+
     return (
         <>
             <div className="circle-grp">
@@ -104,7 +108,10 @@ const Vaccine = () => {
                     </select>
 
 
-                    <select className="form-select vaccine-form bg-transparent text-white mx-lg-4 my-sm-4 my-4" aria-label="Default select example" value={districtValue} onChange={(event) => dispatch({ type: 'SELECTDISTRICT', payload: event.target.value })}>
+                    <select className="form-select vaccine-form bg-transparent text-white mx-lg-4 my-sm-4 my-4" aria-label="Default select example" value={districtValue} onChange={(event) => {
+                        dispatch({ type: 'SELECTDISTRICT', payload: event.target.value });
+                        props.refer.current.continuousStart();
+                    }}>
                         <option className="text-dark">Search District</option>
                         {
                             districtsData.map((currElem, index) => {

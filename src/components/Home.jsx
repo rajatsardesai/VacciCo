@@ -3,7 +3,7 @@ import axios from 'axios';
 import Card from './Card';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Home = (props) => {
 
     const [states, setStates] = useState([]);
 
@@ -14,9 +14,9 @@ const Home = () => {
             const statesData = await axios.get('https://api.covid19india.org/data.json');
             setStates(statesData.data.statewise);
         }
-
         getData();
-    }, []);
+        props.refer.current.complete()
+    }, [statesData]);
 
     return (
         <>
@@ -70,6 +70,7 @@ const Home = () => {
                         <div className="form-state">
                             <select className="form-select form-data bg-transparent text-white" aria-label="Default select example" value={statesData} onChange={(event) => {
                                 setStatesData(event.target.value);
+                                props.refer.current.continuousStart();
                             }}>
                                 <option className="text-dark">Select State</option>
                                 {

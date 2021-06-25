@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -16,12 +16,15 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import 'font-awesome/css/font-awesome.min.css';
 
 const App = () => {
+
+  const ref = useRef(null)
+
   return (
     <>
-      <Navbar />
+      <Navbar refer={ref} />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/get-vaccinated' component={Vaccine} />
+        <Route exact path='/' render={() => <Home refer={ref} />} />
+        <Route exact path='/get-vaccinated' render={() => <Vaccine refer={ref} />} />
         <Route component={Error} />
       </Switch>
     </>
