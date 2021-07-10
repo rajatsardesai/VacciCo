@@ -119,15 +119,31 @@
 }
 
 @media only screen and (min-width: 1400px) {
-  .vaccine-container{
+  .vaccine-container {
     flex-wrap: wrap !important;
     justify-content: center !important;
   }
 }
 
 @media only screen and (max-width: 1400px) {
-  .vaccine-container{
+  .vaccine-container {
     flex-wrap: nowrap !important;
     overflow: scroll !important;
+  }
+}
+
+/* login page */
+@media only screen and (max-width: 992px) {
+  .navbar-brand-login {
+    left: 50%;
+    transform: translateX(-100%);
+  }
+
+  .login-resp {
+    width: 100% !important;
+  }
+
+  .login-text {
+    font-size: 30px;
   }
 }

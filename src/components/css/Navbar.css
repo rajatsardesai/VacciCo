@@ -10,6 +10,8 @@
   border: 2px solid #e51a5a;
   border-radius: 25px;
   background-color: #20114c;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-login:hover {
