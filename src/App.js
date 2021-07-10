@@ -1,10 +1,9 @@
 import React, { useRef } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Vaccine from './components/Vaccine';
-import Error from './components/Error';
+import Login from './components/Login';
 import './App.css';
+import Routing from './components/Routing';
+import './components/css/Login.css';
 import './components/css/Navbar.css';
 import './components/css/Home.css';
 import './components/css/Vaccine.css';
@@ -16,16 +15,13 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import 'font-awesome/css/font-awesome.min.css';
 
 const App = () => {
-
-  const ref = useRef(null)
+  const ref = useRef(null);
 
   return (
     <>
-      <Navbar refer={ref} />
       <Switch>
-        <Route exact path='/' render={() => <Home refer={ref} />} />
-        <Route exact path='/get-vaccinated' render={() => <Vaccine refer={ref} />} />
-        <Route component={Error} />
+        <Route exact path='/' render={() => <Login refer={ref} />} />
+        <Routing />
       </Switch>
     </>
   )

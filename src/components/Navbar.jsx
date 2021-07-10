@@ -16,13 +16,13 @@ const Navbar = (props) => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink exact className="nav-link text-white mx-lg-3 my-sm-2 px-3" activeClassName="active-class" to="/">Home</NavLink>
+                                    <NavLink exact className="nav-link text-white mx-lg-3 my-sm-2 px-3" activeClassName="active-class" to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink exact className="nav-link text-white mx-lg-3 my-sm-2 px-3" activeClassName="active-class" to="/get-vaccinated">Get Vaccinated</NavLink>
                                 </li>
                             </ul>
-                            <button className="btn-login text-white my-lg-0 my-sm-2">Log in</button>
+                            <NavLink className="btn-login text-white text-center my-lg-0 my-sm-2" to="/">Log out</NavLink>
                         </div>
                     </div>
                 </nav>

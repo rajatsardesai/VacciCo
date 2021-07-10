@@ -1,0 +1,71 @@
+.navbar-brand-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 9px 104px;
+    padding: 20px;
+  }
+  
+  .login-bubble {
+    height: 100vh;
+  }
+  
+  .login-img {
+    height: 100%;
+  }
+  
+  .doctor-img-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .doctor-img {
+    max-width: 90%;
+  }
+  
+  .login-text {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .get-otp-form {
+    width: 100% !important;
+    margin: auto !important;
+    border: none !important;
+    border-bottom: 2px solid #ccc !important;
+    border-radius: unset !important;
+  }
+  
+  .btn-otp {
+    max-width: 262px;
+    background-image: linear-gradient(to top, #e53365, #f46f72);
+    padding: 18px 71px;
+    border: none;
+    border-radius: 42px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn-otp-disabled {
+    max-width: 262px;
+    background-color: rgb(197, 197, 197);
+    padding: 18px 71px;
+    border: none;
+    border-radius: 42px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* OTP input */
+  .otp-input {
+    border: none !important;
+    border-bottom: 2px solid #ccc !important;
+    border-radius: unset !important;
+    min-width: 15% !important;
+  }
+  
+  .login-resp {
+    width: 50% !important;
+  }
