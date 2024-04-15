@@ -63,10 +63,9 @@ const Login = (props) => {
 
     async function otpcreate() {
         // Make a request for a user with a given ID
-        await axios.post('https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP',
+        await axios.post('https://cdndemo-api.co-vin.in/api/v2/auth/generateMobileOTP',
             {
-                mobile: number,
-
+                mobile: number
             })
             .then(function (response) {
                 setRes(response.data.txnId)

@@ -76,7 +76,7 @@ const Home = (props) => {
                                 {
                                     states.map((currElem, index) => {
                                         return (
-                                            <option className="text-dark" value={index}>{currElem.state}</option>
+                                            <option key={index} className="text-dark" value={index}>{currElem.state}</option>
                                         )
                                     }
                                     )
@@ -93,7 +93,7 @@ const Home = (props) => {
                                         return (
                                             index == statesData && statesData != '' ?
                                                 <>
-                                                    <Card id={index} active={currElem.active} deaths={currElem.deaths} recovered={currElem.recovered} confirmed={currElem.confirmed} />
+                                                    <Card key={index} id={index} active={currElem.active} deaths={currElem.deaths} recovered={currElem.recovered} confirmed={currElem.confirmed} />
                                                 </>
                                                 :
                                                 null
